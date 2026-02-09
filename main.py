@@ -8,7 +8,7 @@ weights = np.array([0.5, -1, 0.5])
 f = BarycentricRational(nodes, values, weights)
 
 x = np.linspace(0.1, 10, 1000)
-y= f(x)
+y = f(x)
 
 plt.figure()
 plt.plot(x, y)
